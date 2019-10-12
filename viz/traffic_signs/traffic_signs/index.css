@@ -1,0 +1,116 @@
+@import "../res/css/bootstrap.css";
+@import "../res/css/mapbox-gl.css";
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+  text-align: center;
+}
+
+#user {
+    float: right;
+    padding: 5px;
+    background-color: #2578b6;
+}
+
+#content {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+#footer {
+    position: relative;
+    top: 800px;
+    text-align: center;
+}
+
+#map_view {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 550px;
+    height: 600px;
+    /*z-index: 100;*/
+}
+
+#canvas_view {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 680px;
+    height: 770px;
+    pointer-events: none;
+}
+
+#action_view {
+    position: absolute;
+    left: 570px;
+    top: 10px;
+    /*border: 1px solid #ccc;*/
+    border-radius: 5px;
+}
+
+#analysis_button{
+    width:100px;
+    length:40px;
+    margin: 10px;
+}
+
+
+#chart_view1 {
+  position: absolute;
+  top: 0px;
+  left: 570px;
+  width: 600px;
+  height: 350px;
+  display: none;
+}
+#chart_view2 {
+    position: absolute;
+    top: 330px;
+    left: 570px;
+    width: 600px;
+    height: 500px;
+		display: none;
+}
+#pic_view1{
+  position: absolute;
+  top:110px;
+  left:570px;
+  width :350px;
+  height:200px;
+  display: none;
+}
+#pic_view2{
+  position: absolute;
+  top:400px;
+  left:600px;
+  width :350px;
+  height:200px;
+  display: none;
+}
+#pic_view3{
+  position: absolute;
+  top:10px;
+  left:570px;
+  width :650px;
+  height:400px;
+  display: none;
+}
+
+
+.alert {
+    display: none;
+}
+
+.marker {
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+}
