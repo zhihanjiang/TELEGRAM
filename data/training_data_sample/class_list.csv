@@ -1,0 +1,7 @@
+no_parking,0
+turn_left,1
+turn_right,2
+uturn,3
+bg,4
+bg_red_stop,5
+bg_blue_arrow,6
