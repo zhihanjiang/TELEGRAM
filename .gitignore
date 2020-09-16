@@ -1,0 +1,10 @@
+node_modules/
+output/
+release/
+.DS_Store
+.Trashes
+*.class
+*.db
+*.log
+*.vs
+._*
